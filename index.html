@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,900' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+
+        function navigation() {
+            var icon = document.getElementById("icon");
+            var navbar = document.getElementById("navbar");
+        
+            if(icon.classList.contains('fa-bars')){
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+                navbar.style.top = '0';
+            }
+            else{
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+                navbar.style.top = '-100%';
+            }
+        }
+    </script>
+    <title>TakeTheFit | LandingPage</title>
+</head>
+
+
+<body>
+        <nav>
+        
+            <ul id="navbar">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">How Does It Work?</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+    
+            <i class="fa fa-bars" id="icon" onclick="navigation()"></i>
+    
+        </nav>
+
+        <header class="main">
+            <div class="brand">
+                <img src="IMG/logo.png" alt="Logo">
+            </div>
+    
+            <h1 class="slogan">ONLY THE <span class="strong">STRONG</span> <span class="survive">SURVIVE</span></h1>
+        </header>
+
+        <section class="about-me">
+            <div class="about-me-cont">
+                <div class="about-me-title">
+                    <h1>ABOUT ME</h1>
+                    <div class="about-stroke"></div>
+                </div>
+                <div class="about-text">
+                    <p>I am a person willing to share with you 
+                    necessary, important and interesting content, 
+                    that will update us with the latest news and 
+                    trends. Start today to enjoy these new services 
+                    for that training that you have wanted to chain 
+                    to your daily routine.</p>
+                    <p>Many times in our lives we make excuses, 
+                    especially for not going to school or for not 
+                    exercising. You identified with this, right? Well, 
+                    that ends today, together we will become stronger, 
+                    because ... 'Only the strong survive'.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="foryou-content">
+            <div class="contenedor">
+                     <div class="cards">
+                        <div class="card">
+                            <a href="#"><img class="icon" src="img/categories.png" alt=""></a>
+                            <div class="contenido-texto-card">
+                                <h3>ALL YOU NEED HERE, IN THIS SITE</h3>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+                            <a href="#"><img class="icon" src="img/free.png" alt=""></a>
+                            <div class="contenido-texto-card">
+                                <h3>EFFORT IS NOT NEGOTIABLE</h3>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+                            <a href="#"><img class="icon" src="img/online.png" alt=""></a>
+                            <div class="contenido-texto-card">
+                                <h3>DO IT HERE, PRACTICE HERE</h3>
+                            </div>
+                        </div>
+        
+                        <div class="card">
+                            <a href="#"><img class="icon" src="img/time.png" alt=""></a>
+                            <div class="contenido-texto-card">
+                                <h3>EXCUSES ARE STRICTLY FORBIDDEN</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>       
+    
+</body>
+</html>

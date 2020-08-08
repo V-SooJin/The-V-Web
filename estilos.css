@@ -1,0 +1,185 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  background-image: url(../IMG/banner.jpeg);
+  padding: 150px;
+}
+
+/* NavBar */
+
+ul{
+  height: 100vh;
+  width: 100vw;
+  background: #333533;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: -100%;
+  transition:top 1s;
+  z-index: 1;
+}
+
+#navbar{
+  position: fixed;
+}
+
+li{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+li:not(:last-child){
+  margin-bottom: 40px;
+}
+
+ul a{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #f5cb5c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  width: 35%;
+  border-radius: 40px;
+  transition: .3s;
+  padding: 20px 0;
+}
+
+ul a:hover{
+  background-color: #f5cb5c;
+  color: #e8eddf;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.05);
+}
+i.fa{
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  background-color: #333533;
+  color: #f5cb5c;
+  top: 30px;
+  right: 30px;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* logo */
+
+.brand{
+  margin: -140px;
+  width: 100%;
+}
+
+/* Intro */
+
+.slogan{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-size: 120px;
+  padding-top: 90px;
+  padding-left: 550px;
+  color: #333533;
+} 
+
+.strong{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 150px;
+  font-weight: bolder;
+  color: #cfdbd5;
+}
+
+.survive{
+  color: #f5cb5c;
+}
+
+/* About me */
+
+.about-me{
+  background: #292929;
+  padding: 100px;
+}
+
+.about-me-cont{
+  margin-top: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 50px;
+  color: #cfdbd5;
+}
+
+.about-me-title{
+  text-align: center;
+  font-size: 35px;
+}
+
+.about-stroke{
+  border-bottom: 5px solid #f5cb5c;
+  margin: 0 460px;
+}
+
+.about-text p{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+/* ABOUT */
+
+.foryou-content{
+  margin-top: 0px;
+  background: #f5cb5c;
+  padding-top: 50px;
+  padding: 70px;
+}
+
+.foryou{
+  margin-top: 0px;
+  background: #292929;
+  padding: 10px;
+}
+
+.icon{
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards .card{
+  width: 50%;
+  height: 330px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+.cards .card h3{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1px;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.cards .card .contenido-texto-card{
+  color: #ffffff;
+  margin-top: 30px;
+}
